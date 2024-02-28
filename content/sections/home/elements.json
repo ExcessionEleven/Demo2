@@ -26,9 +26,236 @@
 					"position": "absolute",
 					"width": "100svw",
 					"height": "100svh",
-					"background-color": "rgb(136, 119, 69)"
+					"background-color": "rgb(42, 42, 136)"
 				},
 				"text": "",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_52328",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "lab_user_personnal_server"
+				}
+			],
+			"style": {
+				"parent": "lab_deploy_menus",
+				"style": {},
+				"text": "Serveur distant personnel",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_95498",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "laboranth_remote_server"
+				}
+			],
+			"style": {
+				"parent": "lab_deploy_menus",
+				"style": {},
+				"text": "Serveur distant Laboranth",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_85512",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "laboranth_deploy_git"
+				}
+			],
+			"style": {
+				"parent": "lab_deploy_menus",
+				"style": {},
+				"text": "Git",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_59347",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "laboranth_deploy_zip"
+				}
+			],
+			"style": {
+				"parent": "lab_deploy_menus",
+				"style": {},
+				"text": "Zip",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_74372",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "show"
+				}
+			],
+			"style": {
+				"parent": "lab_deploy_menus",
+				"style": {},
+				"text": "Aperçu",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_6425",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "createRepo"
+				}
+			],
+			"style": {
+				"parent": "lab_git_operations",
+				"style": {},
+				"text": "Créer",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_81972",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "deleteRepo"
+				}
+			],
+			"style": {
+				"parent": "lab_git_operations",
+				"style": {},
+				"text": "Supprimer",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_83829",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "push"
+				}
+			],
+			"style": {
+				"parent": "lab_git_operations",
+				"style": {},
+				"text": "Git push",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_76732",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "credentials"
+				}
+			],
+			"style": {
+				"parent": "lab_git_operations",
+				"style": {},
+				"text": "Identifiants",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_25796",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "Cours_FR"
+				}
+			],
+			"style": {
+				"parent": "lab_git_repositories_list",
+				"style": {},
+				"text": "Cours_FR",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_97033",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "Demo2"
+				}
+			],
+			"style": {
+				"parent": "lab_git_repositories_list",
+				"style": {},
+				"text": "Demo2",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_65085",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "hand"
+				}
+			],
+			"style": {
+				"parent": "lab_git_branches_list",
+				"style": {},
+				"text": "hand",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_OPTION_93443",
+			"tagName": "OPTION",
+			"attributes": [
+				{
+					"attributeName": "value",
+					"attributeValue": "main"
+				}
+			],
+			"style": {
+				"parent": "lab_git_branches_list",
+				"style": {},
+				"text": "main",
+				"textArray": []
+			}
+		},
+		{
+			"id": "lab_git_commit_message_label",
+			"tagName": "LABEL",
+			"attributes": [
+				{
+					"attributeName": "for",
+					"attributeValue": "lab_git_commit_message_input"
+				}
+			],
+			"style": {
+				"parent": "lab_git_push_form",
+				"style": {
+					"display": "block",
+					"margin-bottom": "1svh"
+				},
+				"text": "Commit Message",
 				"textArray": []
 			}
 		}
